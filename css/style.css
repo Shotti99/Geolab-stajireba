@@ -1,11 +1,12 @@
 body{
   margin: 0;
   padding: 0;
+  max-width:100%;
   font-family:BPG Glaho WEB Caps Regular;
   
 }
 html{
-    max-width:1600px;
+    width:1600px;
     overflow-x: hidden;
 }
 header{
@@ -76,21 +77,15 @@ hr{
 	flex-wrap:wrap;
 }
 .cheminamushevrebi{
-	margin-top: 60px;
+	margin-top:5%;
 	margin-bottom: 60px;
 	font-family: "BPG Glaho WEB Caps",Regular;
 	font-size: 24px;
 	text-align: center;
+	position:relative;
 	
 }
-.webdizaini{
-font-family: "BPG Glaho WEB Caps Regular";
-color: #ffffff;
-font-size: 42px;
-margin-left: 467px;
-position: relative;
-margin-top: 276px;
-}
+
 .webdizaini2{
 	font-size: 26px;
 	color: #fff;
@@ -189,7 +184,7 @@ h6{
   border: 1px solid gray;
   margin-left:235px;
   margin-right:-45px;
-
+  position: relative;
 }
 .dizaini{
 	width: 266px;
@@ -278,11 +273,11 @@ h6{
 /*kontakti*/
 .form-bg{
 	background:#B8EDF8;
-	max-width:1600px;
+	width:100%;
 }
 .form1-bg{
 	background:#F1F1F1;
-	max-width:100%;
+	width:100%;
 	padding-bottom: 60px;
 }
 .form-wrapper{
